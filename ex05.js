@@ -1,6 +1,8 @@
 function getAngryBird(value) {
+  var str = "";
     for (var i = 0; i < value; i++) {
-      console.log("piou");
+      str += "piou";
   }
+  return str;
   }
-  getAngryBird(12)
+  console.log(getAngryBird(12));
